@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        body {
+            background-color:#222222;
+            font-family:"맑은 고딕";
+            font-size:12px;
+            color:#444444;
+        }
+        ul {
+            list-style-type:none;
+            
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            
+        }
+        a:hover {
+            background-color: #eeeeee;
+            color: #000000;
+        }
+        #header {
+            height:135px;
+            position:relative;
+            border:solid 1px #000000;
+            background-color:#111111;
+        }
+        #logo {
+            position:relative;
+            top:30px;
+            left:30px;
+        }
+        #top_menu {
+            position:absolute;
+            top:40px;
+            right:20px;
+        }
+        #top_menu li {
+            display:inline;
+        }
+        #footer {
+            border:  1px dotted gray;
+            padding: 0px;
+            padding-left: 0px;
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 150px;
+            margin-bottom: 50px;
+        }
+        #img_main {
+            text-decoration: none;
+            color: red;
+            text-align: center;
+            margin-left: 200px;
+            
+        }
+        #img_main {
+            border-radius: 100%;
+            margin-right: 200px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }    
+        
+        figcaption{
+            position : absolute;
+            top : 0%;
+            bottom :0%;
+            left : 0;
+            right : 0;
+            background : black;
+            color : #555555;
+            padding : 80px;
+            opacity : 0;
+            -webkit-transition : opacity 1s;   
+        }
+        #figure_1 {
+            display : inline-block;
+            margin : 20px 10px 10px 10px;
+            position : relative;
+        }
+        #figure_2 {
+            display : inline-block;
+            margin : 20px 10px 10px 10px;
+            position : relative;
+        }
+        figure:hover figcaption {
+            opacity : 3;
+        }
+    </style>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+    <div id="header">
+        <a href="index.html"><img id="logo" src="./img/로고.png" alt="로고" title="로고" width="100"></a></div>
+    <ul id="top_menu">
+        <li><a href="profile.html"> Profile |</a></li>
+        <li><a href="hw01.html"> HW01 |</a></li>
+        <li><a href="hw02.html"> HW02 |</a></li>
+        <li><a href="hw03.html"> HW03 |</a></li>
+        <li><a href="hw04.html"> HW04 |</a></li>
+        <li><a href="hw05.html"> HW05 |</a></li>
+        <li><a href="portfolio.html"> Portfolio |</a></li>
+    </ul>
+     <div id="img_main" class ="name">
+        <a class ="top_name" id = "6"></a><br>
+        <figure id="figure_1">
+            <img src="./img/디자인.png" alt="portfolio_1" width="200" >
+            <figcaption>Design_1</figcaption>
+        </figure>
+        <figure id="figure_2">
+            <img src="./img/기획.png" alt="portfolio_2" width="200" height="280">
+            <figcaption>Design_2</figcaption>   
+        </figure></div>
+      <br>
+      <br>
+   </header>
+   <!-- 출처 -->
+   <footer>
+        <div id="footer">
+            <p>
+            copyrigt &copy; szeen2 all right reserved.
+            <br>
+            e-mail : whdmswn923@naver.com
+            <br>
+            phone : 010-6659-8515
+            </p>
+        </div>
+   </footer>
+</body>
+</html>

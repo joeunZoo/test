@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HOMEWORK #1</title>
+    <style>
+        * {
+            padding: 5px;
+            margin: 5px;
+            background-color: none;
+        /* 메인 메뉴 */
+        }
+        #main_mune ul {
+            margin: 0px;
+            padding: 0px;
+            margin-top: 10px;
+        }
+        #main_menu li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 0px;
+            margin-top: 0px;
+        }
+        #main_menu li a {
+            text-decoration: none;
+            font-style: normal;
+            font-family: sans-serif;
+            font-size : 15px;
+            color: black;
+            padding: 0px 0px;
+        }
+        #main_menu a:hover {
+            color: black;
+            background-color: yellow;
+            border-bottom: 0px solid;
+        }
+        /* 헤더 */
+        #header {
+            border:  0px none gray;
+            padding: 0px;
+        }
+        #headB {
+            float: right;
+            margin-left: 20px;
+            padding-bottom: 16px;
+        }
+        #headA img {
+            width: 170px;
+            float: left;
+        }
+        #headA img:hover {
+            background-color: black;
+            color : yellow;
+        }
+        /* 내용 */
+        #section {
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 150px;
+            margin-bottom: 50px;
+        }
+        /* 저작권 및 정보 */
+        #footer {
+            border:  1px dotted gray;
+            padding: 20px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header id="header">
+        <div id="headA">
+            <a href="index.html"><img src="./img/logo.jpg" alt="로고"></a>
+        </div>
+        <div id="headB">
+            <ul id="main_menu">
+               <li><a href="profile.html">PROFILE</a></li>
+               <li><a href="hw01.html">HW01</a></li>
+               <li><a href="hw02.html">HW02</a></li>
+               <li><a href="hw03.html">HW03</a></li>
+               <li><a href="hw04.html">HW04</a></li>
+               <li><a href="hw05.html">HW05</a></li>
+               <li><a href="portfolio.html">PORTFOLIO</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="section">
+       <article>
+        <!--    웹 표준 정의   -->
+        <h1>1. 웹 표준</h1>
+            <b>웹 표준</b>은 월드 와이드 웹(World Wide Web)의 측면을 서술하고 정의하는 공식 표준이나 다른 기술 규격을 가리키는 일반적인 용어이다.
+            <br>
+            최근에 이 용어는 웹 사이트를 작성하는 데 중요도가 높아지고 있으며 웹 디자인, 개발과 관계가 있다.
+            <br>
+            <br>
+            수많은 상호 의존성이 있는 표준들과 규격들 가운데 일부는 단지 월드 와이드 웹으로만 끝나는 것이 아니라, 인터넷의 관리 측면이기도 하며 이러한 표준들은 직간접적으로 웹 사이트, 웹 서비스 개발과 관리에 영향을 주고 있다.<br> 이러한 것들을 모두 "웹 표준"이라고 부르지만 웹 표준으로 이동하는 것을 찬성하는 사람들은 사용성과 접근성에 직접 영향을 미치는 더 높은 수준의 표준에 초점을 두는 경향이 있다.
+            <br>
+            <br>
+            [출처] 웹표준 정의 - 위키백과
+            <br>
+       </article>
+        <!--    웹표준이 중요한 이유   -->
+        <p><ins><h3><mark>웹표준이 중요한 이유</mark></h3></ins></p>
+        <h3>1.</h3> 수정 및 운영관리 용이
+            <br>
+            컨텐츠의 올바른 구조화와 CSS로 시각표현을 통일하며 제작 부담을 줄입니다.
+            <br>
+        <h3>2.</h3> 웹 접근성 향상
+            <br>
+            많은 브라우징 환경에서도 각각 대응이 가능하고 시각장애인을 배려할 수 있습니다.
+            <br>
+        <h3>3.</h3> 검색엔진 최적화
+            <br>
+            검색엔진 크롤러는 웹페이지 소스를 있는 그대로 해석하기 때문에 구조화되어있는 웹페이지에서는 검색봇이 잘 검색하지 못할 수 있어 그만큼의 기회가 늘어납니다!
+            <br>
+        <h3>4.</h3> 서버 저장공간 절약
+            <br>
+            소스가 효율적으로 작성되며 파일사이즈 및 서버 공간을 절약할 수 있고 화면 표시 시간을 줄일 수 있습니다.
+            <br>
+        <h3>5.</h3> 여러 IT기기 호환
+            <br>
+            별도로 모바일 홈페이지를 제작하는 일이 없어도 모바일 및 다른 IT기기에서 충돌 없는 깨끗한 형태의 홈페이지를 볼 수 있습니다.
+            <br>
+            <br>
+            [출처] 웹 표준의 중요성, 알고 계셨나요? - 서현커뮤니케이션 네이버 블로그
+            <br>
+            <br>
+       <article>
+        <!--    웹 접근성 정의   -->
+        <h1>2. 웹 접근성</h1>
+            <b>웹 접근성(web accessibility)</b>은 장애를 가진 사람과 장애를 가지지 않은 사람 모두가 웹사이트를 이용할 수 있게 하는 방식을 가리킨다.
+            <br>
+            사이트가 올바르게 설계되어 개발되고 편집되어 있을 때 모든 사용자들은 정보와 기능에 동등하게 접근할 수 있다.
+            웹 접근성에는 다음의 사항들을 고려하여야 한다.
+            <br>
+            <br>
+            <b>시각:</b> 실명, 색각 이상, 다양한 형태의 저시력을 포함한 시각 장애
+            <br>
+            <br>
+            <b>운동성:</b> 파킨슨병, 근육병, 뇌성마비, 뇌졸중과 같은 조건으로 인한 근육 속도 저하, 근육 제어 손실로 말미암아 손을 쓰기 어렵거나 쓸 수 없는 상태
+            <br>
+            <br>
+            <b>청각:</b> 청각 장애
+            <br>
+            <br>
+            <b>발작:</b> 깜박이는 효과나 시각적인 스트로보스코프를 통해 일어나는 뇌전증성 발작
+            <br>
+            <br>
+            <b>인지:</b> 문제 해결과 논리 능력, 집중력, 기억력에 문제가 있는 정신 지체 및 발달 장애, 학습 장애 (난독증, 난산증 등)
+            <br>
+            <br>
+            <br>
+            [출처] 웹접근성 정의 - 위키백과
+            <br>
+        <!--    웹 접근성의 필요성   -->
+        <p><ins><h3><mark>웹접근성의 필요성</mark></h3></ins></p>
+            장애인, 고령자 등 누구에게나 동등한 접근과 이용의 기회 제공
+            웹 접근성 보장은 법률에 명시된 의무사항
+            국가정보화기본법」과 「장애인차별금지 및 권리구제 등에 관한 법률(이하 “장애인차별금지법”)」등
+            <br>
+            법률에 명시된 의무사항이므로 모든 웹 사이트는 웹 접근성을 준수해야만 합니다.
+            <br>
+            설명: 웹 접근성 관련 법률
+            <br>
+            -장애인 복지법 제22조
+            <br>
+            -장애인차별금지 및 권리구제등에 관한 법률 제20조(정보접근에서의 차별금지)
+            <br>
+            -국가정보화 기본법
+            <br>
+            <br>
+            [출처] 웹접근성 (Web Accessibility) - 위키백과
+            <br>
+        </article>
+    </section>
+    <footer>
+        <div id="footer">
+            <p>
+            copyrigt &copy; szeen2 all right reserved.
+            <br>
+            e-mail : szeen904@gmail.com
+            <br>
+            phone : 010-7459-0904
+            </p>
+        </div>
+   </footer>
+</body>
+</html>
