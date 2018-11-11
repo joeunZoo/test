@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        body {
+            background-color:#f2f0f0;
+            font-family:"맑은 고딕";
+            font-size:12px;
+            color:#444444;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            
+        }
+        a:hover {
+            background-color: #eeeeee;
+            color: #000000;
+        }
+        #header {
+            height:135px;
+            position:relative;
+            border:solid 1px #000000;
+            background-color:#111111;
+        }
+        #logo {
+            position:relative;
+            top:30px;
+            left:30px;
+        }
+        #top_menu {
+            position:absolute;
+            top:40px;
+            right:20px;
+        }
+        #top_menu li {
+            display:inline;
+        }
+        h3{
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        form{
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        #section {
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 150px;
+            margin-bottom: 50px;
+        }
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            background-color: #ffffff;
+        }
+    </style>
+    <title>form</title>
+</head>
+<body>
+<body>
+    <!-- 헤더 -->
+    <header>
+    <div id="header">
+     <a href="index.html"><img id="logo" src="./img/로고.png" alt="로고" title="로고" width="100"></a></div>
+        <ul id="top_menu">
+        <li><a href="contact.html"> contact |</a></li>
+        <li><a href="profile.html"> Profile |</a></li>
+        <li><a href="hw01.html"> HW01 |</a></li>
+        <li><a href="hw02.html"> HW02 |</a></li>
+        <li><a href="hw03.html"> HW03 |</a></li>
+        <li><a href="hw04.html"> HW04 |</a></li>
+        <li><a href="hw05.html"> HW05 |</a></li>
+        <li><a href="portfolio.html"> Portfolio |</a></li>
+        </ul>
+    </header>
+<h3>contact</h3>
+<!--폼 화면 시작-->
+   <form>
+    이름:
+    <input type="text" name="uid"><br>
+    이메일:
+    <input type="password" name="upw">
+    <!--  select 시작  -->
+   <span>@</span> 
+    <select name="favorites" size=1>
+    <option value="google">구글</option>
+    <option value="naver">네이버</option>
+    <option value="daum">다음</option>
+    <option value="audi">직접 입력</option>
+    </select><br>  
+
+    제목
+    <input type="text" name="uid"><br>
+    <span>내용</span>
+    <textarea name="message" rows="1" cols="30">
+    
+    </textarea><br><br>
+    <input type="submit" value="전송">
+    <input type="submit" value="재설정"><br>
+
+  </form>
+  <!-- 출처 -->
+    <footer>
+     <div id="footer">
+         <p>
+             copyright &copy All right reserve
+         </p>
+         whdmswn923@naver.com     
+     </div>
+   </footer>   
+    </body></body>
+</html>
